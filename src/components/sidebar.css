@@ -1,0 +1,62 @@
+.main {
+  height: 100%;
+  background-color: #fae418;
+}
+.sidebar {
+  width: 30%;
+  background-color: #fae418;
+  padding: 20px;
+}
+/* sidebar.css */
+
+/* .main {
+  width: 30%;
+  background-color: #f0f0f0;
+  padding: 20px;
+} */
+
+.logo img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.company-name {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu li {
+  margin-bottom: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+}
+
+.submenu {
+  margin-top: 10px;
+}
+
+.submenu li {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.submenu li:last-child {
+  border-bottom: none;
+}
+
+.menu ul.submenu {
+  margin-left: 20px;
+}
+
+.menu ul.submenu .subsubmenu {
+  margin-left: 20px;
+}

@@ -1,0 +1,97 @@
+.left{
+    font-size: medium;
+    font-weight: 600;
+}
+/* styles.css */
+
+.left {
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .left p {
+    margin-bottom: 10px;
+  }
+  
+  .left label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .left input[type="text"],
+  .left input[type="number"],
+  .left select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .left .deductibles {
+    margin-top: 20px;
+  }
+  
+  .left .deductibles h5 {
+    margin-bottom: 10px;
+  }
+  
+  /* styles.css */
+
+.left {
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 400px; /* Adjust width as needed */
+  }
+  
+  .left p {
+    margin-bottom: 10px;
+  }
+  
+  .left label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .left input[type="text"],
+  .left input[type="number"],
+  .left select {
+    width: calc(100% - 20px); /* Adjust width and padding as needed */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .left .deductibles {
+    margin-top: 20px;
+  }
+  
+  .left .deductibles h5 {
+    margin-bottom: 10px;
+  }
+  
+  .left button {
+    display: block;
+    width: 100px; /* Adjust width as needed */
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    background-color: #007bff; /* Blue color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .left button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+  }
+  
+  .left .add-deductible {
+    margin-top: 10px;
+    text-align: right;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
