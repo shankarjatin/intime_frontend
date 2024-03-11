@@ -181,7 +181,7 @@ const App = () => {
         <div className='container plan'><h4>Warranty</h4></div>
         <div className="display">
           <div className="container name">
-            <p className="planName">Name of the plane</p>
+            <p className="planName">Name of the plan</p>
             <input
               className="planInput"
               type="text"
