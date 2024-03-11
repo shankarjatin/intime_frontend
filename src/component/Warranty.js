@@ -259,7 +259,7 @@ const Warranty = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
-    axios.get('http://localhost:8000/api/plans')
+    axios.get('https://intime-backend.onrender.com/api/plans')
       .then(response => {
         const modifiedPlans = response.data.map(plan => ({
           ...plan,
@@ -316,7 +316,7 @@ const Warranty = () => {
         <tbody>
           {plans.map((plan, index) => (
             <tr key={index}>
-                
+
               <td>Plan {index + 1}</td>
               <td>{plan.leftFormData.planMetricType}</td>
               <td>

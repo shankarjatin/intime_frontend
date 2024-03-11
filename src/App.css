@@ -1,7 +1,7 @@
 .App {
   text-align: center;
 }
-
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -11,7 +11,7 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
   background-color: #282c34;
@@ -110,4 +110,26 @@ margin: 10px;
 
 .plan{
   margin-left: 10px;
+}
+/* App.css */
+
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.load-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff; /* Blue color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.load-button:hover {
+  background-color: #0056b3; /* Darker shade of blue on hover */
 }

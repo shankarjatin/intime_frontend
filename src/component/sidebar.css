@@ -47,6 +47,7 @@
 }
 
 .submenu li {
+  padding-left: 10px;
   border-bottom: 1px solid #ccc;
   padding-bottom: 5px;
 }

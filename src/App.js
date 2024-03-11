@@ -202,10 +202,12 @@ const App = () => {
               )}
             </div>
           )}
-          {/* Button to load new component */}
-          {!showNewComponent && <button onClick={handleLoadNewComponent}>Load New Component</button>}
-          {/* Conditionally render new component */}
-          {showNewComponent && <Warranty />}
+           <div className="container button">
+      {/* Button to load new component */}
+      {!showNewComponent && <button className="load-button" onClick={handleLoadNewComponent}>Screen 2</button>}
+      {/* Conditionally render new component */}
+      {showNewComponent && <Warranty />}
+    </div>
         </div>
       </div>
     </div>

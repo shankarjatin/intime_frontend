@@ -51,7 +51,7 @@ const LeftForm = ({ onFormSubmit ,planName }) => {
     };
 
     // Post the form data to the API
-    axios.post('http://localhost:8000/api/plans', dataToPost)
+    axios.post('https://intime-backend.onrender.com/api/plans', dataToPost)
       .then(response => {
         console.log('Form data posted successfully:', response.data);
         // Load right-hand side form after successful form submission
