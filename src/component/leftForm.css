@@ -1,5 +1,5 @@
 .left{
-    font-size: medium;
+    font-size: small;
     font-weight: 600;
 }
 /* styles.css */
@@ -27,14 +27,14 @@
     box-sizing: border-box;
   }
   
-  .left .deductibles {
+  /* .left .deductibles {
     margin-top: 20px;
   }
   
   .left .deductibles h5 {
     margin-bottom: 10px;
   }
-  
+   */
   /* styles.css */
 
 .left {

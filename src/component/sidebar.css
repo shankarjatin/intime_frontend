@@ -2,11 +2,13 @@
   height: 100%;
   background-color: #fae418;
 }
-.sidebar {
-  width: 30%;
+/* .sidebar {
+ margin-top: -220px;
+  width: 20%;
   background-color: #fae418;
   padding: 20px;
-}
+  height: 100%;
+} */
 /* sidebar.css */
 
 /* .main {
@@ -27,7 +29,7 @@
 
 .menu ul {
   list-style-type: none;
-  padding: 0;
+  padding: 10px;
 }
 
 .menu li {

@@ -40,17 +40,22 @@ body, html {
   margin: 0;
   padding: 0;
   height: 100%;
+  background-color: #ffffff;
 }
 .container {
   display: flex;
   height: 100%;
 }
-/* .sidebar {
+.sidebar {
   width: 20%;
   height: 1000px; ;
-  background-color: #cac724;
-} */
+  background-color:  #fae418;
+/* Set sidebar width */
+/* Make the sidebar full height */
+ 
+}
 .main-content {
+  margin-top: -100px;
   width: 80%;
   height: 100%;
   background-color: #e0e0e0;
@@ -59,15 +64,16 @@ body, html {
   border-bottom: 7px solid #cebcbc;
   padding: 20px;
   background-color: #ffffff;
-  color: #a12222;
+  color: #000000;
 }
 .display {
   background-color: #ffffff;
   margin-left: 39px;
-  margin-top: 66px;
+  margin-top: 29pxks;
   margin-right: 55px;
 }
 .formContainer {
+  background-color: #ffffff;
   margin-top: 10%;
   display: flex;
   justify-content: center;
@@ -79,7 +85,29 @@ body, html {
   border-radius: 1px;
   width: 443px;
   height: fit-content;
-  padding: 20px;
-  margin: 20px;
+  /* padding: 20px; */
+  /* margin: 43px; */
+  margin-top: 0%;
   box-shadow: 0 2px 5px rgba(102, 100, 100, 0.1);
+}
+
+
+
+
+.container {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.planName {
+  font-weight: bold;
+  color: rgb(55, 141, 253);
+  margin-right: 10px; /* Add some spacing between elements */
+}
+.name {
+margin: 10px;
+}
+
+.plan{
+  margin-left: 10px;
 }
