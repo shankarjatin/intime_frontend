@@ -4,7 +4,7 @@ module.exports = function(app) {
   app.use(
     '/api',
     createProxyMiddleware({
-      target: 'http://intime-backend.onrender.com',
+      target: 'https://intime-backend.onrender.com',
       changeOrigin: true,
     })
   );
